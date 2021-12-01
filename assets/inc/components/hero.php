@@ -1,4 +1,4 @@
-<div class="container" id="hero">
+<div id="hero">
     <div class="row">
         <div class="col-12 ">
             <!-- Slider main container -->
@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <!-- Slides -->
                     <div class="swiper-slide"
-                        style="background: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 0%, rgba(103, 39, 109, 0.1) 100%), url('<?php echo SITE_ADDR ?>/assets/img/hero/hero-1.jpeg') no-repeat; background-size: cover; background-position: center;">
+                        style="background: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 0%, rgba(103, 39, 109, 0.1) 100%), url('<?php echo SITE_ADDR ?>/assets/img/hero/hero-2.jpeg') no-repeat; background-size: cover; background-position: center;">
                         <div class="text-start p-5">
                             <h1 class="display-3">Official Microsoft Certifications</h1>
                             <h3 class="my-4 w-75">Subscribe today to get UNLIMITED access to over 450+ courses.
@@ -19,7 +19,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide"
-                        style="background: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 0%, rgba(103, 39, 109, 0.1) 100%), url('<?php echo SITE_ADDR ?>/assets/img/hero/hero-1.jpeg') no-repeat; background-size: cover; background-position: center;">
+                        style="background: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 0%, rgba(103, 39, 109, 0.1) 100%), url('<?php echo SITE_ADDR ?>/assets/img/hero/hero-3.jpeg') no-repeat; background-size: cover; background-position: center;">
                         <div class="text-start p-5">
                             <h1 class="display-3">Official Microsoft Certifications</h1>
                             <h3 class="my-4 w-75">Subscribe today to get UNLIMITED access to over 450+ courses.

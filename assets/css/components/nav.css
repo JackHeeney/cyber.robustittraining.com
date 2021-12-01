@@ -54,16 +54,6 @@ body.offcanvas-active {
 }
 /* ============ mobile view .end// ============ */
 
-.nav-header a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav-header a:hover {
-  color: #525457;
-  text-decoration: none;
-}
-
 .icon::before {
   display: inline-block;
   font-style: normal;
@@ -103,4 +93,12 @@ body.offcanvas-active {
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--bs--primary);
+}
+
+.navbar-brand {
+  max-width: 150px;
 }

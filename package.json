@@ -1,7 +1,11 @@
 {
+  "scripts": {
+    "postcss:watch": "postcss assets/css/style.css --dir public --watch"
+  },
   "devDependencies": {
+    "cssnano": "^5.0.12",
     "postcss-cli": "^9.0.2",
-    "postcss-import": "^14.0.2"
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^7.0.1"
   }
-  
 }

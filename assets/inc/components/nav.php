@@ -61,13 +61,12 @@
     </div>
 </header>
 
-<div class="container-fluid navbar-light bg-white shadow">
+<div class="container-fluid navbar-dark bg-gradient bg-dark shadow">
     <div class="container">
         <nav class="navbar sticky-top navbar-expand-lg ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img
-                        src="<?php echo SITE_ADDR ?>/assets/img/microsoft-gold-partner.jpg" class="img-fluid"
-                        alt="microsoft gold partners"></a>
+                <a class="navbar-brand" href="#"><img src="<?php echo SITE_ADDR ?>/assets/img/robust-it-logo-white.png"
+                        class="img-fluid" alt="microsoft gold partners"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <span class="navbar-toggler-icon"></span>

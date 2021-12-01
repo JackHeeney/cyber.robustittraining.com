@@ -10,7 +10,7 @@
   text-align: center;
   font-size: 1rem;
   background: #f1f1f1;
-  height: 60vh;
+  height: 80vh;
   padding: 5em;
   /* Center slide text vertically */
   display: -webkit-box;
@@ -47,7 +47,7 @@
 }
 
 #hero .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  background: var(--bs-primary) !important;
+  background: var(--bs--primary) !important;
   position: absolute;
   left: 0;
   top: 0;
@@ -65,7 +65,7 @@
 
 #hero .swiper:hover .swiper-button-prev,
 #hero .swiper:hover .swiper-button-next {
-  color: var(--bs-primary);
+  color: var(--bs--primary);
   display: block;
 }
 
