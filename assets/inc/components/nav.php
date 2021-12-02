@@ -49,7 +49,7 @@
 </div>
 
 
-<header class="container-fluid bg-dark navbar-light nav-header">
+<header class="container-fluid bg-black navbar-light nav-header">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -61,12 +61,13 @@
     </div>
 </header>
 
-<div class="container-fluid navbar-dark bg-gradient bg-dark shadow">
+<div class="container-fluid navbar-dark bg-gradient bg-black shadow" style="display: absolute !important;">
     <div class="container">
         <nav class="navbar sticky-top navbar-expand-lg ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="<?php echo SITE_ADDR ?>/assets/img/robust-it-logo-white.png"
-                        class="img-fluid" alt="microsoft gold partners"></a>
+                <a class="navbar-brand" href="#"><img
+                        src="<?php echo SITE_ADDR ?>/assets/img/robust-it-logo-svg-white.svg" class="img-fluid"
+                        alt="microsoft gold partners"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <span class="navbar-toggler-icon"></span>

@@ -64,6 +64,10 @@
   --bs--primary: #0f8b6c;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -131,4 +135,37 @@ h2 {
 
 .btn {
   border-radius: 2em !important;
+}
+
+.btn--primary {
+  color: #fff;
+  background-color: #000000;
+  border: 3px solid #0f8b6c;
+  transition: 350ms ease-in-out;
+}
+
+.btn--primary:hover {
+  color: #fff;
+  background-color: #0f8b6c;
+  border-color: #000000;
+}
+
+.btn--primary::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f30b";
+  opacity: 0;
+  margin-left: -5px;
+  transition: 350ms ease-in-out;
+}
+
+.btn--primary:hover::after {
+  opacity: 1;
+  margin-left: 8px;
+}
+
+@media (max-width: 786px) {
+  .text-md-left {
+    text-align: left;
+  }
 }

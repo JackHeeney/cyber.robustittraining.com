@@ -1,6 +1,6 @@
 <?php
 // Change page title and meta tags here
-$title = "Microsoft Certified Training | Robust IT Training";
+$title = "Cyber Security Training | Robust IT Training";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
@@ -22,7 +22,7 @@ $meta['og:url'] = "";
 
     <div class="container my-5" id="practice">
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center" data-aos="fade-up">
                 <span class="font-bitcon">Our Practice</span>
                 <h2>Cyber Security Practice</h2>
                 <p class="mx-auto">
@@ -37,7 +37,7 @@ $meta['og:url'] = "";
     <div class="container my-5">
         <div class="row">
             <div class="col-12 col-md-4">
-                <div class="card mt-4">
+                <div class="card mt-4" data-aos="fade" data-aos-delay="200">
                     <div class="card-header">
                         <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-1.png" class="card-img img-fluid"
                             alt="hacker icon green">
@@ -56,7 +56,7 @@ $meta['og:url'] = "";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4" data-aos="fade" data-aos-delay="400">
                 <div class="card ">
                     <div class="card-header">
                         <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-2.png" class="card-img img-fluid"
@@ -76,7 +76,7 @@ $meta['og:url'] = "";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mt-4">
+            <div class="col-12 col-md-4 mt-4" data-aos="fade" data-aos-delay="600">
                 <div class="card">
                     <div class="card-header">
                         <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-3.png" class="card-img img-fluid"
@@ -102,7 +102,7 @@ $meta['og:url'] = "";
 
     <div class="container my-5" id="faq">
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center" data-aos="fade-up">
                 <span class="font-bitcon">FAQ</span>
                 <h2>Got A Question?</h2>
                 <p class="mx-auto">
@@ -113,7 +113,7 @@ $meta['og:url'] = "";
 
         <!-- one -->
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" data-aos="fade-up">
                 <div class="accordion accordion-flush" id="accordionFlushExampleOne">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingOne">
@@ -132,7 +132,7 @@ $meta['og:url'] = "";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" data-aos="fade-up">
                 <div class="accordion accordion-flush" id="accordionFlushExampleTwo">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingTwo">
@@ -155,7 +155,7 @@ $meta['og:url'] = "";
 
         <!-- two -->
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" data-aos="fade-up">
                 <div class="accordion accordion-flush" id="accordionFlushExampleThree">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingThree">
@@ -174,7 +174,7 @@ $meta['og:url'] = "";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" data-aos="fade-up">
                 <div class="accordion accordion-flush" id="accordionFlushExampleFour">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingFour">
@@ -197,7 +197,7 @@ $meta['og:url'] = "";
 
         <!-- three -->
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" data-aos="fade-up">
                 <div class="accordion accordion-flush" id="accordionFlushExampleFive">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingFive">
@@ -216,7 +216,7 @@ $meta['og:url'] = "";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" data-aos="fade-up">
                 <div class="accordion accordion-flush" id="accordionFlushExampleSix">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingSix">
@@ -240,7 +240,7 @@ $meta['og:url'] = "";
 
         <!-- four -->
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" data-aos="fade-up">
                 <div class="accordion accordion-flush" id="accordionFlushExampleSeven">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingSeven">
@@ -259,7 +259,7 @@ $meta['og:url'] = "";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" data-aos="fade-up">
                 <div class="accordion accordion-flush" id="accordionFlushExampleEight">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingEight">
@@ -282,7 +282,7 @@ $meta['og:url'] = "";
 
 
         <div class="row">
-            <div class="col-12">
+            <div class="col-12" data-aos="fade" data-aos-delay="300">
                 <a href="<? echo SITE_ADDR ?>/" class="btn btn-lg btn--primary" alt="Browse all FAQs"
                     title="Browse all FAQs">Browse all FAQs</a>
             </div>
@@ -297,8 +297,10 @@ $meta['og:url'] = "";
                     <img src="<? echo SITE_ADDR ?>/assets/img/banner/cyber-banner-1.png" alt="" class="img-fluid">
 
                     <div class="banner-body">
-                        <h2>Heading One</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fugit voluptatibus laboriosam
+                        <h2 data-aos="fade-right" data-aos-anchor-placement="center-center">Heading One</h2>
+                        <p data-aos="fade-right" data-aos-anchor-placement="center-center">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ex fugit
+                            voluptatibus laboriosam
                             adipisci iusto at qui, sed eveniet quo consectetur omnis! Consequuntur accusamus esse optio?
                             Corrupti, sit? Nostrum, sit consequuntur?</p>
                     </div>
@@ -308,10 +310,11 @@ $meta['og:url'] = "";
         </div>
     </div>
 
+    <div class="p-5"></div>
 
     <div class="container my-5">
         <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4" data-aos="fade" data-aos-delay="200">
                 <div class="card">
                     <div class="card-header">
                         <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-1.png" class="card-img img-fluid"
@@ -332,9 +335,9 @@ $meta['og:url'] = "";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mt-4">
-                <div class="card ">
-                    <div class="card-header">
+            <div class="col-12 col-md-4 mt-4" data-aos="fade" data-aos-delay="400">
+                <div class=" card ">
+                    <div class=" card-header">
                         <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-2.png" class="card-img img-fluid"
                             alt="hacker icon green">
                     </div>
@@ -353,7 +356,7 @@ $meta['og:url'] = "";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 ">
+            <div class="col-12 col-md-4" data-aos="fade" data-aos-delay="600">
                 <div class="card">
                     <div class="card-header">
                         <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-3.png" class="card-img img-fluid"
@@ -377,7 +380,108 @@ $meta['og:url'] = "";
         </div>
     </div>
 
+    <div class="p-5"></div>
 
+    <div class="container my-5" id="get-in-touch">
+        <div class="row">
+            <div class="col-12 text-center" data-aos="fade-up">
+                <span class="font-bitcon">Contact</span>
+                <h2>Get In Touch</h2>
+            </div>
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-12">
+                    <div class="accordion accordion-flush" id="accordionoFLushGetInTouch">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingNine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseNine" aria-expanded="false"
+                                    aria-controls="flush-collapseNine">
+                                    <span class="w-75">
+                                        If you have any questions or need to get in touch with us, you can contact us at
+                                        info@robustittraining.com or on 02038 757 827 to speak to a member of our
+                                        friendly
+                                        support
+                                        team.
+                                    </span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseNine" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingNine" data-bs-parent="#accordionoFLushGetInTouch">
+                                <div class="accordion-body">
+
+                                    <form action="" method="POST" name="get-in-touch">
+
+                                        <input type="hidden" name="intLeadGroupID" value="" />
+                                        <input type="hidden" name="strSource" value="" />
+                                        <input type="hidden" name="strMedium" value="" />
+                                        <input type="hidden" name="strTerm" value="" />
+                                        <input type="hidden" name="intSiteID" value="" />
+                                        <input type="hidden" name="intReferrerBuyerID" value="0" />
+                                        <input type="hidden" name="intDPAStatusPhoneID" value="1">
+                                        <input type="hidden" name="intDPAStatusSMSID" value="1">
+                                        <input type="hidden" name="intDPAStatusEmailID" value="1">
+                                        <input type="hidden" name="strAPISuccessURL" value="" />
+                                        <input type="hidden" name="strAPIFailURL" value="" />
+                                        <input type="hidden" name="strLeadData2"
+                                            value="Lead is from cyber.robustittraining.com 'get-in-touch' form" />
+
+                                        <div class="row p-4">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="name" class="form-label">Your firstname *</label>
+                                                    <input type="text" name="strLeadFirstName" id="strLeadFirstName"
+                                                        placeholder="Enter your firstname" required="required"
+                                                        class="form-control" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="surname" class="form-label">Your lastname *</label>
+                                                    <input type="text" name="strLeadLastName" id="strLeadLastName"
+                                                        placeholder="Enter your lastname" required="required"
+                                                        class="form-control" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row p-4">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="email" class="form-label">Your email *</label>
+                                                    <input type="email" name="strLeadEmail" id="strLeadEmail"
+                                                        placeholder="Enter your email" required="required"
+                                                        class="form-control" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="phone" class="form-label">Phone Number </label>
+                                                    <input type="number" name="strLeadPhone1" id="strLeadPhone1"
+                                                        placeholder="Enter your phone num" class="form-control" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group p-4">
+                                            <label for="message" class="form-label">Your message for us </label>
+                                            <textarea rows="4" name="strLeadData4" id="strLeadData4"
+                                                placeholder="Enter your message" class="form-control"></textarea>
+                                        </div>
+                                        <button type="submit" name="submit" value="Submit" class="btn btn--primary">Send
+                                            message</button>
+
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-5"></div>
 
 
 </main>

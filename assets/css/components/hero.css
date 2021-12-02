@@ -80,3 +80,33 @@
   transform: translateX(5px) !important;
   transition: ease-in-out 500ms;
 }
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 25px;
+  right: auto;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.swiper-slide-content {
+  text-align: center;
+  max-width: 992px;
+  transform: translate(50%, 0%);
+}
+
+@media (max-width: 768px) {
+  .swiper-slide-content {
+    text-align: center;
+    max-width: 992px;
+    transform: translate(0%, 0%);
+  }
+  .swiper-slide-content .btn {
+    margin-bottom: 10px;
+  }
+}

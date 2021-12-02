@@ -23,6 +23,15 @@ body.offcanvas-active {
   width: 100%;
   visibility: visible;
 }
+
+.offcanvas-start {
+  top: 0;
+  left: 0;
+  width: 325px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translateX(-100%);
+}
+
 /* ============ mobile view ============ */
 @media all and (max-width: 991px) {
   .offcanvas-header {
@@ -79,14 +88,6 @@ body.offcanvas-active {
   content: "\f3cd";
 }
 
-.offcanvas-start {
-  top: 0;
-  left: 0;
-  width: 325px;
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
-  transform: translateX(-100%);
-}
-
 .nav-item {
   padding: 0 10px;
 }
@@ -101,4 +102,9 @@ body.offcanvas-active {
 
 .navbar-brand {
   max-width: 150px;
+}
+
+.nav-item .dropdown-menu .dropdown-item:focus {
+  color: #fff !important;
+  background-color: var(--bs--primary) !important;
 }

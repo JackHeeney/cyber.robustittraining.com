@@ -1,0 +1,8 @@
+#myModal {
+  display: none;
+}
+
+.modal .btn--primary:hover::after {
+  opacity: 1;
+  margin-left: 0px !important;
+}

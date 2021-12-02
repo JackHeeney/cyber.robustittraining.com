@@ -1,3 +1,248 @@
+<!-- Footer -->
+<footer class="bg-black text-light pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-start">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-4 mx-auto">
+
+                <!-- Content -->
+                <h5 class="font-weight-bold  ">Cyber Security</h5>
+                <img src="<? echo SITE_ADDR ?>/assets/img/robust-it-logo-svg-white.svg" alt="">
+                <p class="my-3">A better way to learn.</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Courses</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!">EC-Council</a>
+                    </li>
+                    <li>
+                        <a href="#!">CompTIA</a>
+                    </li>
+                    <li>
+                        <a href="#!">Cisco</a>
+                    </li>
+                    <li>
+                        <a href="#!">(ISC)&#178;</a>
+                    </li>
+                    <li>
+                        <a href="#!">ISACA</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Certified</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!">GCHQ Certified</a>
+                    </li>
+                    <li>
+                        <a href="#!">Microsoft Gold Partners</a>
+                    </li>
+                    <li>
+                        <a href="#!">CompTIA Authorised Partners</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">General</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!">Home</a>
+                    </li>
+                    <li>
+                        <a href="#!">About</a>
+                    </li>
+                    <li>
+                        <a href="#!">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#!">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#!">Terms & Conditions</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <hr>
+
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
+        <li class="list-inline-item">
+            <h5 class="mb-1">Register for today!</h5>
+        </li>
+        <li class="list-inline-item">
+            <a href="#!" class="btn btn--primary ">Sign up!</a>
+        </li>
+    </ul>
+    <!-- Call to action -->
+
+    <hr>
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+            <a class="btn-floating btn-fb mx-1">
+                <i class="fab fa-facebook-f"> </i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a class="btn-floating btn-tw mx-1">
+                <i class="fab fa-twitter"> </i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a class="btn-floating btn-gplus mx-1">
+                <i class="fab fa-google-plus-g"> </i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a class="btn-floating btn-li mx-1">
+                <i class="fab fa-linkedin-in"> </i>
+            </a>
+        </li>
+        <li class="list-inline-item">
+            <a class="btn-floating btn-dribbble mx-1">
+                <i class="fab fa-dribbble"> </i>
+            </a>
+        </li>
+    </ul>
+    <!-- Social buttons -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© Robust IT Training. All rights reserved.
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+<!-- Modal -->
+<div class="modal fade bg-dark " id="myModal" role="dialog" displayed="false" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Get in Touch</h5>
+                <button type="button" class="btn btn--primary" data-bs-dismiss="modal">CLOSE</button>
+            </div>
+            <div class="modal-body">
+
+
+                <form action="" method="POST" name="get-in-touch">
+
+                    <input type="hidden" name="intLeadGroupID" value="" />
+                    <input type="hidden" name="strSource" value="" />
+                    <input type="hidden" name="strMedium" value="" />
+                    <input type="hidden" name="strTerm" value="" />
+                    <input type="hidden" name="intSiteID" value="" />
+                    <input type="hidden" name="intReferrerBuyerID" value="0" />
+                    <input type="hidden" name="intDPAStatusPhoneID" value="1">
+                    <input type="hidden" name="intDPAStatusSMSID" value="1">
+                    <input type="hidden" name="intDPAStatusEmailID" value="1">
+                    <input type="hidden" name="strAPISuccessURL" value="" />
+                    <input type="hidden" name="strAPIFailURL" value="" />
+                    <input type="hidden" name="strLeadData2"
+                        value="Lead is from cyber.robustittraining.com 'get-in-touch' form" />
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Your firstname *</label>
+                                <input type="text" name="strLeadFirstName" id="strLeadFirstName"
+                                    placeholder="Enter your firstname" required="required" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="surname" class="form-label">Your lastname *</label>
+                                <input type="text" name="strLeadLastName" id="strLeadLastName"
+                                    placeholder="Enter your lastname" required="required" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="email" class="form-label">Your email *</label>
+                                <input type="email" name="strLeadEmail" id="strLeadEmail" placeholder="Enter your email"
+                                    required="required" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number </label>
+                                <input type="number" name="strLeadPhone1" id="strLeadPhone1"
+                                    placeholder="Enter your phone num" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Your message for us </label>
+                        <textarea rows="4" name="strLeadData4" id="strLeadData4" placeholder="Enter your message"
+                            class="form-control"></textarea>
+                    </div>
+                    <button type="submit" name="submit" value="Submit" class="btn btn--primary w-100 my-3">Send
+                        message</button>
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
 <script type="text/javascript">
 /*****************************
  *        live search        *

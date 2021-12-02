@@ -18,7 +18,11 @@ var swiper = new Swiper(".swiperHero", {
   direction: "horizontal",
   loop: true,
   autoplay: true,
-  speed: 2000,
+  speed: 1500,
+  effect: "fade",
+  fadeEffect: {
+    crossFade: true,
+  },
 
   // If we need pagination
   pagination: {
@@ -89,3 +93,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 // DOMContentLoaded  end
+
+/****************************
+ *   Modal show on scroll   *
+ ****************************/
+$(window).scroll(function () {
+  if (
+    $(document).scrollTop() > 2500 &&
+    $("#myModal").attr("displayed") === "false"
+  ) {
+    $("#myModal").modal("show");
+    $("#myModal").attr("displayed", "true");
+  }
+});
