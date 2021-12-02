@@ -6,3 +6,22 @@
   opacity: 1;
   margin-left: 0px !important;
 }
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  color: #fff;
+  background-color: var(--bs-dark) !important;
+  background-clip: padding-box;
+  border: 0px solid rgba(0, 0, 0, 0.2) !important;
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+#myModal label {
+  color: #fff;
+  margin: 20px auto;
+}
