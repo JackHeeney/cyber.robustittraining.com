@@ -175,6 +175,18 @@
             </div>
             <div class="modal-body">
 
+                <div class="row">
+                    <div class="col-12">
+                        <div class="lottie-player mx-auto">
+
+                            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_5yhibpv8.json"
+                                background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay>
+                            </lottie-player>
+
+                        </div>
+                    </div>
+
+                </div>
 
                 <form action="" method="POST" name="get-in-touch">
 

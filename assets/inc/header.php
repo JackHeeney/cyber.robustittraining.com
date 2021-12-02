@@ -11,7 +11,7 @@
  ***************************************************/
 
 ?>
-<?php define("SITE_ADDR", "http://localhost/cyber.robustittraining.com"); ?>
+<?php define("SITE_ADDR", "http://bilmen.co.uk"); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +19,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
     <meta name="robots" content="all,follow">
 
     <!-- ======= Meta tags ======== -->
@@ -40,12 +40,15 @@
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.typekit.net/qjk3gds.css">
 
-
     <!-- ======= Swiper JS ======== -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
     <!-- ======= AOS (animation) ======== -->
     <link href="<?php echo SITE_ADDR; ?>/assets/css/vendor/aos.css" rel="stylesheet">
+
+    <!-- ======= Lottie ======== -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js">
+    </script>
 
     <!-- ======= Main CSS ======== -->
     <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/public/style.css">

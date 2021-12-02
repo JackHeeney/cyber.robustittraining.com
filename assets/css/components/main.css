@@ -87,6 +87,10 @@ body {
   font-family: var(--bs-text-poppins);
   font-size: var(--bs-body-font-size);
   overflow-x: hidden !important;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
 }
 
 a {

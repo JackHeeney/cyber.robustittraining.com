@@ -37,7 +37,7 @@ $meta['og:url'] = "";
     <div class="container my-5">
         <div class="row">
             <div class="col-12 col-md-4">
-                <div class="card mt-4" data-aos="fade" data-aos-delay="200">
+                <div class="card mt-4 mt-md-4" data-aos="fade" data-aos-delay="200">
                     <div class="card-header">
                         <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-1.png" class="card-img img-fluid"
                             alt="hacker icon green">
@@ -57,7 +57,7 @@ $meta['og:url'] = "";
                 </div>
             </div>
             <div class="col-12 col-md-4" data-aos="fade" data-aos-delay="400">
-                <div class="card ">
+                <div class="card mt-4 mt-md-0">
                     <div class="card-header">
                         <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-2.png" class="card-img img-fluid"
                             alt="hacker icon green">
@@ -76,8 +76,8 @@ $meta['og:url'] = "";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mt-4" data-aos="fade" data-aos-delay="600">
-                <div class="card">
+            <div class="col-12 col-md-4" data-aos="fade" data-aos-delay="600">
+                <div class="card mt-4 mt-md-4">
                     <div class="card-header">
                         <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-3.png" class="card-img img-fluid"
                             alt="hacker icon green">
@@ -315,7 +315,7 @@ $meta['og:url'] = "";
     <div class="container my-5">
         <div class="row">
             <div class="col-12 col-md-4" data-aos="fade" data-aos-delay="200">
-                <div class="card">
+                <div class="card mt-4 mt-md-0">
                     <div class="card-header">
                         <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-1.png" class="card-img img-fluid"
                             alt="hacker icon green">
@@ -335,8 +335,8 @@ $meta['og:url'] = "";
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mt-4" data-aos="fade" data-aos-delay="400">
-                <div class=" card ">
+            <div class="col-12 col-md-4" data-aos="fade" data-aos-delay="400">
+                <div class=" card mt-4 mt-md-4">
                     <div class=" card-header">
                         <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-2.png" class="card-img img-fluid"
                             alt="hacker icon green">
@@ -357,7 +357,7 @@ $meta['og:url'] = "";
                 </div>
             </div>
             <div class="col-12 col-md-4" data-aos="fade" data-aos-delay="600">
-                <div class="card">
+                <div class="card mt-4 mt-md-0">
                     <div class="card-header">
                         <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-3.png" class="card-img img-fluid"
                             alt="hacker icon green">
@@ -408,7 +408,7 @@ $meta['og:url'] = "";
                             </h2>
                             <div id="flush-collapseNine" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingNine" data-bs-parent="#accordionoFLushGetInTouch">
-                                <div class="accordion-body">
+                                <div class="accordion-body p-1 p-md-5">
 
                                     <form action="" method="POST" name="get-in-touch">
 
@@ -426,7 +426,7 @@ $meta['og:url'] = "";
                                         <input type="hidden" name="strLeadData2"
                                             value="Lead is from cyber.robustittraining.com 'get-in-touch' form" />
 
-                                        <div class="row p-4">
+                                        <div class="row">
                                             <div class="col-sm-6">
                                                 <div class="form-group">
                                                     <label for="name" class="form-label">Your firstname *</label>
@@ -445,7 +445,7 @@ $meta['og:url'] = "";
                                             </div>
                                         </div>
 
-                                        <div class="row p-4">
+                                        <div class="row">
                                             <div class="col-sm-6">
                                                 <div class="form-group">
                                                     <label for="email" class="form-label">Your email *</label>
@@ -463,7 +463,7 @@ $meta['og:url'] = "";
                                             </div>
                                         </div>
 
-                                        <div class="form-group p-4">
+                                        <div class="form-group">
                                             <label for="message" class="form-label">Your message for us </label>
                                             <textarea rows="4" name="strLeadData4" id="strLeadData4"
                                                 placeholder="Enter your message" class="form-control"></textarea>

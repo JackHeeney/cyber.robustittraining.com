@@ -23,7 +23,8 @@
                         style="background: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 0%, rgba(103, 39, 109, 0.1) 100%), url('<?php echo SITE_ADDR ?>/assets/img/hero/hero-3.jpeg') no-repeat; background-size: cover; background-position: center;">
                         <div class="text-start swiper-slide-content">
                             <h1 class="display-5">Become an Ethical Hacker</h1>
-                            <h3 class="my-4 w-75">The average salary for ethical hackers is £72,500 per year.
+                            <h3 class="my-4 w-75">The average salary for an ethical hacker job in London is £72,500 per
+                                year.
                             </h3>
                             <a href="<?php echo SITE_ADDR ?>/" class="btn btn-lg btn--primary">View courses</a>
 
