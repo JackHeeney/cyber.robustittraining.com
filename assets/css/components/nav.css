@@ -27,7 +27,6 @@ body.offcanvas-active {
 .offcanvas-start {
   top: 0;
   left: 0;
-  width: 325px;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   transform: translateX(-100%);
 }

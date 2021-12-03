@@ -19,7 +19,7 @@
                                         Touch</a>
 
                                 </div>
-                                <div class="col-md-10 mx-auto col-lg-5">
+                                <div class="col-md-10 mx-auto col-lg-5 text-center text-lg-start">
                                     <form class="bg-light p-4 rounded" action="" method="POST" name="hero-form"
                                         id="hero-form">
 
@@ -98,9 +98,9 @@
                     <!-- Slides -->
                     <div class="swiper-slide"
                         style="background: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 0%, rgba(103, 39, 109, 0.1) 100%), url('<?php echo SITE_ADDR ?>/assets/img/hero/hero-2.jpeg') no-repeat; background-size: cover; background-position: center;">
-                        <div class="text-start swiper-slide-content">
+                        <div class="text-center text-lg-start swiper-slide-content">
                             <h1 class="display-4 fw-bold lh-1 mb-3">Official Cyber Security Certifications</h1>
-                            <h3 class="my-4 w-75">The cyber security industry needs more
+                            <h3 class="my-4">The cyber security industry needs more
                                 qualified professionals!
                             </h3>
                             <a href="<?php echo SITE_ADDR ?>/" class="btn btn-lg btn--primary">View courses</a>
@@ -111,9 +111,9 @@
                     </div>
                     <div class="swiper-slide"
                         style="background: linear-gradient(45deg, rgba(0, 0, 0, 0.7) 0%, rgba(103, 39, 109, 0.1) 100%), url('<?php echo SITE_ADDR ?>/assets/img/hero/hero-3.jpeg') no-repeat; background-size: cover; background-position: center;">
-                        <div class="text-start swiper-slide-content">
+                        <div class="text-center text-lg-start swiper-slide-content">
                             <h1 class="display-4 fw-bold lh-1 mb-3">Become an Ethical Hacker</h1>
-                            <h3 class="my-4 w-75">The average salary for an ethical hacker job in London is £72,500 per
+                            <h3 class="my-4">The average salary for an ethical hacker job in London is £72,500 per
                                 year.
                             </h3>
                             <a href="<?php echo SITE_ADDR ?>/" class="btn btn-lg btn--primary">View courses</a>

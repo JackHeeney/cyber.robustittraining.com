@@ -13,7 +13,7 @@
         </div> -->
 
         <!-- mobile view -->
-        <div class=" navbar-collapse" id="navbarSupportedContent">
+        <div class=" navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -24,19 +24,78 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Courses
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Course 1</a></li>
-                        <li><a class="dropdown-item" href="#">Course 2</a></li>
-                        <li><a class="dropdown-item" href="#">Course 3</a></li>
-                        <li><a class="dropdown-item" href="#">Course 4</a></li>
-                        <li><a class="dropdown-item" href="#">Course 5</a></li>
-                        <li><a class="dropdown-item" href="#">Course 6</a></li>
-                    </ul>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Courses </a>
+                    <div class="dropdown-menu megamenu bg-dark p-2" role="menu" style="border-radius: 0px !important">
+                        <div class="container">
+                            <div class="row g-3">
+                                <div class="col-lg-3 col-12">
+
+                                    <a
+                                        href="https://zaklearning.com/store/#!/IT-Cybersecurity-&-Networking/c/120621021">Course
+                                        1 <i class="bi bi-chevron-right"></i></a>
+
+                                </div><!-- end col-2 -->
+                                <div class="col-lg-3 col-12">
+
+                                    <a
+                                        href="https://zaklearning.com/store/#!/Career-Development-&-Business-Skills/c/120621264">Course
+                                        1 <i class="bi bi-chevron-right"></i></a>
+
+                                </div><!-- end col-2 -->
+                                <div class="col-lg-3 col-12">
+
+
+                                    <a href="https://zaklearning.com/store/#!/Programming-&-App-Building/c/120627001">Course
+                                        1 <i class="bi bi-chevron-right"></i></a>
+
+
+                                </div><!-- end col-2 -->
+                                <div class="col-lg-3 col-12">
+
+                                    <a
+                                        href="https://zaklearning.com/store/#!/Creative-Design-&-Web-Development/c/120621524">Course
+                                        1 <i class="bi bi-chevron-right"></i></a>
+
+                                </div><!-- end col-2 -->
+                                <div class="col-lg-3 col-12">
+
+                                    <a href="https://zaklearning.com/store/#!/Hobbies-&-Lifestyle/c/120619273">Course
+                                        1 <i class="bi bi-chevron-right"></i></a>
+
+                                </div><!-- end col-2 -->
+                                <div class="col-lg-3 col-12">
+
+                                    <a href="https://zaklearning.com/store/#!/Marketing/c/120619274">Course
+                                        1 <i class="bi bi-chevron-right"></i></a>
+
+                                </div><!-- end col-2 -->
+                                <div class="col-lg-3 col-12">
+                                    <a href="https://zaklearning.com/store/#!/Microsoft-Courses/c/120621523">Course
+                                        1 <i class="bi bi-chevron-right"></i></a>
+
+                                </div><!-- end col-2 -->
+                                <div class="col-lg-3 col-12">
+
+                                    <a href="https://zaklearning.com/store/#!/Personal-Development/c/120619275">Course
+                                        1 <i class="bi bi-chevron-right"></i></a>
+
+                                </div><!-- end col-2 -->
+                                <div class="col-lg-3 col-12">
+
+                                    <a href="https://zaklearning.com/store/#!/Project-Management/c/120627002">Course
+                                        1 <i class="bi bi-chevron-right"></i></a>
+
+                                </div><!-- end col-2 -->
+                                <div class="col-lg-3 col-12">
+
+                                    <a href="https://zaklearning.com/store/#!/Workplace-Health-&-Safety/c/120627251">Course
+                                        1 <i class="bi bi-chevron-right"></i></a>
+
+                                </div><!-- end col-2 -->
+                            </div><!-- end row -->
+                        </div> <!-- container //end-->
+                    </div> <!-- dropdown-mega-menu.// -->
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled">Search Website:</a>
