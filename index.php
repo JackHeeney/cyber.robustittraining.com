@@ -290,13 +290,13 @@ $meta['og:url'] = "";
 
     </div>
 
-    <div class="container my-5" id="banner">
+    <div class="container my-5" id="banner-desktop">
         <div class="row">
             <div class="col-12">
                 <div class="banner-content">
                     <img src="<? echo SITE_ADDR ?>/assets/img/banner/cyber-banner-1.png" alt="" class="img-fluid">
 
-                    <div class="banner-body">
+                    <div class="banner-body ">
                         <h2 data-aos="fade-right" data-aos-anchor-placement="center-center">Heading One</h2>
                         <p data-aos="fade-right" data-aos-anchor-placement="center-center">Lorem ipsum dolor sit amet
                             consectetur adipisicing elit. Ex fugit
@@ -305,6 +305,24 @@ $meta['og:url'] = "";
                             Corrupti, sit? Nostrum, sit consequuntur?</p>
                     </div>
 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid color-banner-bg g-2 text-white" id="banner-mobile"
+        style="background: url('<?php echo SITE_ADDR ?>/assets/img/hero/hero-3.jpeg') no-repeat; background-size: cover; background-position: center;">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-12 text-center vh-100">
+                    <div class="banner-body mobile">
+                        <h2 data-aos="fade-right">Heading One</h2>
+                        <p data-aos="fade-right">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ex fugit
+                            voluptatibus laboriosam
+                            adipisci iusto at qui, sed eveniet quo consectetur omnis! Consequuntur accusamus esse optio?
+                            Corrupti, sit? Nostrum, sit consequuntur?</p>
+                    </div>
                 </div>
             </div>
         </div>

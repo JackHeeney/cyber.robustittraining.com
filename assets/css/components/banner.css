@@ -13,3 +13,21 @@
   left: 0;
   transform: translate(10%, 120%);
 }
+
+#banner-desktop {
+  display: block;
+}
+
+#banner-mobile {
+  display: none;
+}
+
+#banner-mobile .mobile {
+  margin-top: 15em;
+}
+
+@media (max-width: 768px) {
+  #banner-desktop {
+    display: none;
+  }
+}
