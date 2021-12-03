@@ -11,7 +11,7 @@
  ***************************************************/
 
 ?>
-<?php define("SITE_ADDR", "http://bilmen.co.uk"); ?>
+<?php define("SITE_ADDR", "http://localhost/cyber.robustittraining.com/"); ?>
 
 <!DOCTYPE html>
 <html lang="en">

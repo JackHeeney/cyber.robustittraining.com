@@ -137,6 +137,14 @@ h2 {
   width: 40%;
 }
 
+.fs-6 {
+  font-size: 1rem !important;
+}
+
+.fs-7 {
+  font-size: 0.8rem !important;
+}
+
 .btn {
   border-radius: 2em !important;
 }
@@ -166,6 +174,19 @@ h2 {
 .btn--primary:hover::after {
   opacity: 1;
   margin-left: 8px;
+}
+
+.btn--primary-no-trans {
+  color: #fff;
+  background-color: #000000;
+  border: 3px solid #0f8b6c;
+  transition: 350ms ease-in-out;
+}
+
+.btn--primary-no-trans:hover {
+  color: #fff;
+  background-color: #0f8b6c;
+  border-color: #000000;
 }
 
 @media (max-width: 786px) {

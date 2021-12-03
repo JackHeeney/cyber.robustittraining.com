@@ -104,7 +104,28 @@ body.offcanvas-active {
   max-width: 150px;
 }
 
+.offcanvas-brand {
+  max-width: 150px !important;
+}
+
 .nav-item .dropdown-menu .dropdown-item:focus {
   color: #fff !important;
   background-color: var(--bs--primary) !important;
+}
+
+.offcanvas-body .nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: var(--bs--primary);
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+.offcanvas-body .dropdown-menu a {
+  color: var(--bs--primary) !important;
+  background-color: var(--bs-dark);
+  padding: 10px;
+}
+.offcanvas-body .dropdown-menu {
+  padding: 0px;
 }

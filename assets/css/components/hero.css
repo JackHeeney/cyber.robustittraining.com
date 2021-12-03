@@ -95,18 +95,35 @@
 }
 
 .swiper-slide-content {
-  text-align: center;
   max-width: 992px;
-  transform: translate(50%, 0%);
+  text-align: center;
+  transform: translate(0%) !important;
+  margin: 0 auto;
+}
+
+#hero-form {
+  display: block;
+}
+
+#hero-form-btn {
+  display: none;
 }
 
 @media (max-width: 768px) {
   .swiper-slide-content {
     text-align: center;
     max-width: 992px;
-    transform: translate(0%, 0%);
   }
+
   .swiper-slide-content .btn {
     margin-bottom: 10px;
+  }
+
+  #hero-form {
+    display: none;
+  }
+
+  #hero-form-btn {
+    display: block;
   }
 }

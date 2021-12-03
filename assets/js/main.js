@@ -18,11 +18,12 @@ var swiper = new Swiper(".swiperHero", {
   direction: "horizontal",
   loop: true,
   autoplay: true,
-  speed: 1500,
+  speed: 2000,
   effect: "fade",
   fadeEffect: {
     crossFade: true,
   },
+  disableOnInteraction: true,
 
   // If we need pagination
   pagination: {
