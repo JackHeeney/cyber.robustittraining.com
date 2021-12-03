@@ -100,11 +100,12 @@
                 <li class="nav-item">
                     <a class="nav-link disabled">Search Website:</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#searchModal" href="#">Search
+                        <i class="fas fa-search"></i></a>
+                </li>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn--primary-no-trans" type="submit"><i class="fas fa-search"></i></button>
-            </form>
+
         </div>
     </div>
 </div>
@@ -183,13 +184,10 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Search <i class="fas fa-search"></i></a>
+                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#searchModal" href="#">Search
+                                    <i class="fas fa-search"></i></a>
                             </li>
-
                         </ul>
-
-
-
                     </form>
                 </div>
             </div>

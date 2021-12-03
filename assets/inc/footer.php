@@ -159,6 +159,61 @@
 </footer>
 <!-- Footer -->
 
+<!-- Search Modal -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header bg-dark bg-gradient">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="<? echo SITE_ADDR ?>/" class="brand-wrap h3 me-3">
+                                <img src="<? echo SITE_ADDR ?>/assets/img/zak-logo-svg-purple.svg" class="" width="250"
+                                    alt="zak learning header logo">
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <h2 class="modal-title close text-end ml-auto" id="exampleModalLabel"
+                                data-bs-dismiss="modal" aria-label="Close">CLOSE
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+            </div>
+            <div class="modal-body bg-dark ">
+
+                <div class="container">
+                    <form action="" method="" class="">
+
+
+                        <div class="row g-3 align-items-center my-3">
+                            <!-- <label for="search" class="form-label">Search</label> -->
+                            <div class="col-12 ">
+                                <input type="search" id="search" name="search" class="form-control search"
+                                    aria-label="Search" placeholder="Search Website e.g. 'Microsoft Excel'"
+                                    onKeyUp="showResult(this.value)">
+                            </div>
+                        </div>
+                        <div id="livesearch" class="text-light">Search results:</div>
+
+
+                        <section class="blog-post-area">
+                            <div class="container">
+                                <div class="row py-5">
+                                    <?php include './assets/inc/blog-posts.php' ?>
+                                </div>
+                            </div>
+                        </section>
+
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 
 
