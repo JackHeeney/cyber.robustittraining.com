@@ -36,7 +36,7 @@ if (strlen($q) > 0) {
 					$hint = $hint . "<a href='" .
 
 						$z->item(0)->childNodes->item(0)->nodeValue .
-						"' class='underline-hover'><div class='live-area text-white'>" .
+						"' class='underline-hover'><div class='live-area'>" .
 
 						$y->item(0)->childNodes->item(0)->nodeValue . " <br> <span class='text-muted'>" .
 

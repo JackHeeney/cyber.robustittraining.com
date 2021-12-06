@@ -168,13 +168,13 @@
                     <div class="row">
                         <div class="col-6">
                             <a href="<? echo SITE_ADDR ?>/" class="brand-wrap h3 me-3">
-                                <img src="<? echo SITE_ADDR ?>/assets/img/zak-logo-svg-purple.svg" class="" width="250"
-                                    alt="zak learning header logo">
+                                <img src="<? echo SITE_ADDR ?>/assets/img/robust-it-logo-svg-white.svg"
+                                    class="img-fluid" width="250" alt="zak learning header logo">
                             </a>
                         </div>
                         <div class="col-6">
                             <h2 class="modal-title close text-end ml-auto" id="exampleModalLabel"
-                                data-bs-dismiss="modal" aria-label="Close">CLOSE
+                                data-bs-dismiss="modal" aria-label="Close" style="cursor: pointer">CLOSE
                             </h2>
                         </div>
                     </div>

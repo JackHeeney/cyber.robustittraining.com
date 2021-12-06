@@ -146,8 +146,8 @@
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="d-flex">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -188,7 +188,7 @@
                                     <i class="fas fa-search"></i></a>
                             </li>
                         </ul>
-                    </form>
+                    </div>
                 </div>
             </div>
         </nav>

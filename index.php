@@ -38,22 +38,74 @@ $meta['og:url'] = "";
         <div class="row">
             <div class="col-12 col-md-4">
                 <div class="card mt-4 mt-md-4" data-aos="fade" data-aos-delay="200">
-                    <div class="card-header">
-                        <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-1.png" class="card-img img-fluid"
-                            alt="hacker icon green">
-                    </div>
-                    <div class="card-body">
-                        <h2>Heading One</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatem quaerat nihil in,
-                            a repudiandae odit veritatis nesciunt harum quia excepturi culpa adipisci quisquam
-                            provident, suscipit nam blanditiis, quo assumenda!
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="<? echo SITE_ADDR ?>/" class="btn btn--primary" alt="view course"
-                            title="view course">View Course</a>
-                    </div>
+                    <form class="bg-white p-4 rounded" action="" method="POST" name="hero-form" id="">
+
+                        <h2>Request a callback</h2>
+
+                        <input type="hidden" name="intLeadGroupID" value="" />
+                        <input type="hidden" name="strSource" value="" />
+                        <input type="hidden" name="strMedium" value="" />
+                        <input type="hidden" name="strTerm" value="" />
+                        <input type="hidden" name="intSiteID" value="" />
+                        <input type="hidden" name="intReferrerBuyerID" value="0" />
+                        <input type="hidden" name="intDPAStatusPhoneID" value="1">
+                        <input type="hidden" name="intDPAStatusSMSID" value="1">
+                        <input type="hidden" name="intDPAStatusEmailID" value="1">
+                        <input type="hidden" name="strAPISuccessURL" value="" />
+                        <input type="hidden" name="strAPIFailURL" value="" />
+                        <input type="hidden" name="strLeadData2"
+                            value="Lead is from cyber.robustittraining.com 'get-in-touch' form" />
+
+                        <div class="row mb-3">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Your firstname *</label>
+                                    <input type="text" name="strLeadFirstName" id="strLeadFirstName"
+                                        placeholder="Enter your firstname" required="required" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="surname" class="form-label">Your lastname *</label>
+                                    <input type="text" name="strLeadLastName" id="strLeadLastName"
+                                        placeholder="Enter your lastname" required="required" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Your email *</label>
+                                    <input type="email" name="strLeadEmail" id="strLeadEmail"
+                                        placeholder="Enter your email" required="required" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="phone" class="form-label">Phone Number </label>
+                                    <input type="number" name="strLeadPhone1" id="strLeadPhone1"
+                                        placeholder="Enter your phone num" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+                            <label for="message" class="form-label">Your message for us </label>
+                            <textarea rows="4" name="strLeadData4" id="strLeadData4" placeholder="Enter your message"
+                                class="form-control"></textarea>
+                        </div>
+                        <button type="submit" name="submit" value="Submit" class="btn btn--primary w-100 my-3">Send
+                            message</button>
+
+                        <!-- <hr>
+
+                        <span class="text-muted mx-auto fs-7">
+                            * We do not share any personal information.
+                        </span> -->
+
+                    </form>
+
                 </div>
             </div>
             <div class="col-12 col-md-4" data-aos="fade" data-aos-delay="400">
@@ -63,7 +115,7 @@ $meta['og:url'] = "";
                             alt="hacker icon green">
                     </div>
                     <div class="card-body">
-                        <h2>Heading One</h2>
+                        <h2>EC-Council</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatem quaerat nihil in,
                             a repudiandae odit veritatis nesciunt harum quia excepturi culpa adipisci quisquam
@@ -83,7 +135,7 @@ $meta['og:url'] = "";
                             alt="hacker icon green">
                     </div>
                     <div class="card-body">
-                        <h2>Heading One</h2>
+                        <h2>ISACA</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatem quaerat nihil in,
                             a repudiandae odit veritatis nesciunt harum quia excepturi culpa adipisci quisquam
@@ -98,7 +150,6 @@ $meta['og:url'] = "";
             </div>
         </div>
     </div>
-
 
     <div class="container my-5" id="faq">
         <div class="row">
@@ -289,27 +340,6 @@ $meta['og:url'] = "";
         </div>
 
     </div>
-
-    <div class="container my-5" id="banner-desktop">
-        <div class="row">
-            <div class="col-12">
-                <div class="banner-content">
-                    <img src="<? echo SITE_ADDR ?>/assets/img/banner/cyber-banner-1.png" alt="" class="img-fluid">
-
-                    <div class="banner-body ">
-                        <h2 data-aos="fade-right" data-aos-anchor-placement="center-center">Heading One</h2>
-                        <p data-aos="fade-right" data-aos-anchor-placement="center-center">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ex fugit
-                            voluptatibus laboriosam
-                            adipisci iusto at qui, sed eveniet quo consectetur omnis! Consequuntur accusamus esse optio?
-                            Corrupti, sit? Nostrum, sit consequuntur?</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="container-fluid color-banner-bg g-2 text-white" id="banner-mobile"
         style="background: url('<?php echo SITE_ADDR ?>/assets/img/hero/hero-3.jpeg') no-repeat; background-size: cover; background-position: center;">
         <div class="container">
@@ -339,7 +369,7 @@ $meta['og:url'] = "";
                             alt="hacker icon green">
                     </div>
                     <div class="card-body">
-                        <h2>Heading One</h2>
+                        <h2>(ISC)&#178;</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatem quaerat nihil in,
                             a repudiandae odit veritatis nesciunt harum quia excepturi culpa adipisci quisquam
@@ -360,7 +390,7 @@ $meta['og:url'] = "";
                             alt="hacker icon green">
                     </div>
                     <div class="card-body">
-                        <h2>Heading One</h2>
+                        <h2>CompTIA</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatem quaerat nihil in,
                             a repudiandae odit veritatis nesciunt harum quia excepturi culpa adipisci quisquam
@@ -376,29 +406,101 @@ $meta['og:url'] = "";
             </div>
             <div class="col-12 col-md-4" data-aos="fade" data-aos-delay="600">
                 <div class="card mt-4 mt-md-0">
-                    <div class="card-header">
-                        <img src="<? echo SITE_ADDR ?>/assets/img/cards/card-3.png" class="card-img img-fluid"
-                            alt="hacker icon green">
-                    </div>
-                    <div class="card-body">
-                        <h2>Heading One</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatem quaerat nihil in,
-                            a repudiandae odit veritatis nesciunt harum quia excepturi culpa adipisci quisquam
-                            provident, suscipit nam blanditiis, quo assumenda!
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="<? echo SITE_ADDR ?>/" class="btn btn--primary" alt="view course"
-                            title="view course">View
-                            Course</a>
-                    </div>
+                    <form class="bg-white p-4 rounded" action="" method="POST" name="hero-form" id="">
+
+                        <h2 class="text-center">Request a callback</h2>
+
+                        <input type="hidden" name="intLeadGroupID" value="" />
+                        <input type="hidden" name="strSource" value="" />
+                        <input type="hidden" name="strMedium" value="" />
+                        <input type="hidden" name="strTerm" value="" />
+                        <input type="hidden" name="intSiteID" value="" />
+                        <input type="hidden" name="intReferrerBuyerID" value="0" />
+                        <input type="hidden" name="intDPAStatusPhoneID" value="1">
+                        <input type="hidden" name="intDPAStatusSMSID" value="1">
+                        <input type="hidden" name="intDPAStatusEmailID" value="1">
+                        <input type="hidden" name="strAPISuccessURL" value="" />
+                        <input type="hidden" name="strAPIFailURL" value="" />
+                        <input type="hidden" name="strLeadData2"
+                            value="Lead is from cyber.robustittraining.com 'get-in-touch' form" />
+
+                        <div class="row mb-3">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Your firstname *</label>
+                                    <input type="text" name="strLeadFirstName" id="strLeadFirstName"
+                                        placeholder="Enter your firstname" required="required" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="surname" class="form-label">Your lastname *</label>
+                                    <input type="text" name="strLeadLastName" id="strLeadLastName"
+                                        placeholder="Enter your lastname" required="required" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Your email *</label>
+                                    <input type="email" name="strLeadEmail" id="strLeadEmail"
+                                        placeholder="Enter your email" required="required" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="phone" class="form-label">Phone Number </label>
+                                    <input type="number" name="strLeadPhone1" id="strLeadPhone1"
+                                        placeholder="Enter your phone num" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+                            <label for="message" class="form-label">Your message for us </label>
+                            <textarea rows="4" name="strLeadData4" id="strLeadData4" placeholder="Enter your message"
+                                class="form-control"></textarea>
+                        </div>
+                        <button type="submit" name="submit" value="Submit" class="btn btn--primary w-100 my-3">Send
+                            message</button>
+
+                        <!-- <hr>
+                       
+                        <span class="text-muted mx-auto fs-7">
+                            * We do not share any personal information.
+                        </span> -->
+
+                    </form>
+
                 </div>
             </div>
         </div>
     </div>
 
     <div class="p-5"></div>
+
+    <div class="container my-5" id="banner-desktop">
+        <div class="row">
+            <div class="col-12">
+                <div class="banner-content">
+                    <img src="<? echo SITE_ADDR ?>/assets/img/banner/cyber-banner-1.png" alt="" class="img-fluid">
+
+                    <div class="banner-body ">
+                        <h2 data-aos="fade-right" data-aos-anchor-placement="center-center">Heading One</h2>
+                        <p data-aos="fade-right" data-aos-anchor-placement="center-center">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ex fugit
+                            voluptatibus laboriosam
+                            adipisci iusto at qui, sed eveniet quo consectetur omnis! Consequuntur accusamus esse optio?
+                            Corrupti, sit? Nostrum, sit consequuntur?</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="container my-5" id="get-in-touch">
         <div class="row">
